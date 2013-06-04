@@ -6,7 +6,7 @@
 
 * Creation Date : 20-05-2013
 
-* Last Modified : Mon 20 May 2013 07:12:41 PM CST
+* Last Modified : Thu 30 May 2013 04:21:30 PM CST
 
 * Created By : Philip Zhang 
 
@@ -20,7 +20,7 @@ _._._._._._._._._._._._._._._._._._._._._.*/
 using namespace std;
 using namespace cv;
 int gb_max_corners = 4000;
-int gb_win_size = 64;
+int gb_win_size = 32;
 int gb_layer_count = 5;
 int gb_error_value = 550;
 char gb_output_name[256] = "output.jpg";
